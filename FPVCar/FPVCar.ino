@@ -2,12 +2,12 @@
 #include "esp_camera.h"
 #include <WiFi.h>
 
-
+  
 // Select camera moūdel
 //#define CAMERA_MODEL_WROVER_KIT
 //#define CAMERA_MODEL_M5STACK_PSRAM
-//#define CAMERA_MODEL_AI_THINKER
-#define CAMERA_MODEL_XIAO_ESP32S3
+#define CAMERA_MODEL_AI_THINKER
+//#define CAMERA_MODEL_XIAO_ESP32S3
 
 
 const char* ssid = "pie";   //Enter SSID for AP
